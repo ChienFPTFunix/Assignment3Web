@@ -1,0 +1,413 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: sans-serif;
+  color: #7a7a7a;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  margin: auto;
+  display: block;
+}
+
+/* ///////////////////////////////////
+        BANNER */
+#banner {
+  position: relative;
+}
+
+.banner-img {
+  height: auto;
+  filter: brightness(50%);
+}
+
+.ten-va-job {
+  position: absolute;
+  top: 150px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center;
+  color: #f7f7f7;
+  font-weight: normal;
+}
+
+.ten-va-job > span {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+/* ///////////////////////////////////
+        NAV */
+
+nav.container {
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+}
+
+nav .nav-item:link,
+nav .nav-item:visited {
+  color: #7a7a7a;
+  text-decoration: none;
+}
+
+nav .nav-item:hover,
+nav .nav-item:active {
+  text-decoration: underline;
+}
+
+#nav-bar table {
+  border-collapse: collapse;
+}
+
+#nav-bar td {
+  padding: 10px 30px;
+  border-left: 1px solid rgb(245, 243, 243);
+  border-right: 1px solid rgb(245, 243, 243);
+}
+
+.nav-center {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+.nav-center > span {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* ///////////////////////////////////
+        MUC TIEU NGHE NGHIEP & THONG TIN CA NHAN */
+#about {
+  margin-bottom: 50px;
+}
+
+#about > .container {
+  display: flex;
+  flex: 1;
+}
+
+#target {
+  flex: 50%;
+}
+
+#personal-info {
+  background-color: rgb(238, 237, 237);
+  flex: 50%;
+}
+
+#about .section-title {
+  font-weight: 500;
+  color: #5b5b5b;
+  padding: 70px 50px 20px;
+}
+
+#about p {
+  padding-left: 50px;
+  padding-right: 20px;
+  font-size: 10px;
+}
+
+.info {
+  list-style: none;
+  padding-left: 50px;
+  font-size: 10px;
+  line-height: 2;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.info i {
+  display: inline-block;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ///////////////////////////////////
+        JOB INFO */
+#job-info > .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: 600px 350px; */
+  gap: 30px;
+  justify-content: center;
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.cac-muc-job {
+  border: 2px solid rgb(245, 243, 243);
+  position: relative;
+  /* box-shadow: 10px 10px 5px; */
+}
+
+.cac-muc-job:hover {
+  box-shadow: 10px 10px 5px;
+}
+
+#job-info h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+#job-info h1 i {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 35px;
+}
+
+.section-content {
+  margin-left: 45px;
+  line-height: 1.5;
+}
+
+.blue-dot {
+  color: #1098ad;
+  position: relative;
+  right: 25px;
+  font-size: 18px;
+}
+
+.title-job {
+  position: relative;
+  right: 14px;
+}
+
+.thoi-gian {
+  color: #959494;
+  font-size: 9px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.hien-tai {
+  background-color: rgb(54, 142, 218);
+  color: white;
+  padding: 2px 8px;
+
+  border-radius: 5px;
+}
+
+.noi-dung-job {
+  color: #959494;
+  font-size: 10px;
+}
+
+.danh-sach-so-thich p {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+  position: relative;
+  right: 20px;
+  color: #959494;
+}
+
+.danh-sach-so-thich p i {
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+
+  color: #1098ad;
+  border: 1px solid #1098ad;
+  border-radius: 50%;
+}
+
+.ba-gach {
+  position: relative;
+  right: 14px;
+}
+
+.gach-xanh {
+  width: 50px;
+  border: 1px solid #1098ad;
+  display: inline-block;
+}
+
+.gach-xam {
+  width: 50px;
+  border: 1px solid #ededed;
+  display: inline-block;
+}
+
+/* ///////////////////////////////////
+        CERTIFICATE */
+#certificate {
+  padding-bottom: 50px;
+}
+
+#certificate .section-title {
+  font-weight: 500;
+  color: #5b5b5b;
+  margin-left: 100px;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+.cert-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  row-gap: 35px;
+}
+
+.cert-items {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.cert-text h5 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cert-text p {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.bottom-ruler {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 30px;
+}
+
+.cert-items .left-ruler {
+  border-left: 1px solid #ededed;
+  /* width: 220px; */
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+/* ///////////////////////////////////
+        PROJECT */
+#project {
+  margin-bottom: 40px;
+}
+#project .section-title {
+  font-weight: 500;
+  color: #5b5b5b;
+  margin-left: 100px;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+#project .project-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.each-project {
+  border: 1px solid #ededed;
+  text-decoration: none;
+}
+
+#project .project-content h4,
+.funix-dev-2021,
+.project-text {
+  padding: 10px 10px;
+}
+
+.year2021 {
+  background-color: rgb(54, 142, 218);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.funix-dev-2021 {
+  color: #959494;
+}
+
+.project-text {
+  display: flex;
+  font-size: 14px;
+  color: #959494;
+}
+
+.project-text-1 {
+  flex-basis: 100px;
+}
+
+.project-text-2 {
+  flex-basis: 200px;
+}
+
+.bottom-line-border {
+  border-bottom: 1px solid #ededed;
+}
+
+.aproject:link,
+.aproject:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ///////////////////////////////////
+        FOOTER */
+#footer .container {
+  color: #959494;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+#footer .container i {
+  color: rgb(54, 142, 218);
+  font-size: 23px;
+}
+
+/* ///////////////////////////////////
+        Digital CV */
+
+.grid {
+  display: grid;
+}
+
+.grid-big {
+  grid-template-columns: 2fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 20px;
+}
+
+.grid-2 {
+  grid-template-columns: 1fr 3fr;
+}
+
+.grid-211 {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.timeline {
+  grid-row: span 2;
+}
+
+.number-timeline {
+  border: 1px solid black;
+  background-color: rgb(171, 76, 194);
+}

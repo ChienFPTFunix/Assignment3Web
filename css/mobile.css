@@ -1,0 +1,94 @@
+@media screen and (max-width: 576px) {
+  /* Ten trong banner */
+  .ten-va-job {
+    top: 100px;
+  }
+
+  /* ///////////////////////////////////
+        NAV */
+  #nav-bar table {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav .nav-item {
+    display: block;
+    margin-left: 50px;
+  }
+
+  /* ///////////////////////////////////
+        MUC TIEU NGHE NGHIEP & THONG TIN CA NHAN */
+
+  #about > .container {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+  }
+
+  /* ///////////////////////////////////
+        JOB INFO */
+
+  #job-info > .container {
+    grid-template-columns: 1fr;
+  }
+
+  /* ///////////////////////////////////
+        CERTIFICATE */
+
+  .cert-content {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-items .left-ruler {
+    border-left: none;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  /* ///////////////////////////////////
+        PROJECT */
+
+  #project {
+    margin-bottom: 10px;
+  }
+  #project .project-content {
+    grid-template-columns: 1fr;
+  }
+
+  .each-project {
+    margin-bottom: 30px;
+  }
+
+  /* ///////////////////////////////////
+        Digital CV */
+
+  .grid-big {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-211 {
+    grid-template-columns: 1fr;
+  }
+
+  .scopes {
+    grid-row-start: 2;
+  }
+
+  .team span {
+    text-align: center;
+  }
+
+  .primar {
+    grid-row-start: 4;
+  }
+
+  .primar p.question-mark {
+    text-align: center;
+  }
+}

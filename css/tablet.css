@@ -1,0 +1,45 @@
+@media screen and (max-width: 992px) {
+  /* ///////////////////////////////////
+        NAV */
+  .nav-center {
+    display: none;
+  }
+
+  /* ///////////////////////////////////
+        JOB INFO */
+  #job-info > .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  /* ///////////////////////////////////
+        Digital CV */
+
+  .grid-big {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-211 {
+    grid-template-columns: 1fr;
+  }
+
+  .scopes {
+    grid-row-start: 2;
+  }
+
+  .team span {
+    text-align: center;
+  }
+
+  .primar {
+    grid-row-start: 4;
+  }
+
+  .primar p.question-mark {
+    text-align: center;
+  }
+}
